@@ -16,7 +16,7 @@ param resource_types default [
 ]
 
 # List of mandatory tags
-param mandatory_tags default ["Name", "Environment", "sentinel"]
+param mandatory_tags default ["Name", "Environment"]
 
 # Get all AWS Resources with standard tags
 allAWSResourcesWithStandardTags =
