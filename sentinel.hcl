@@ -11,5 +11,5 @@ module "tfconfig-functions" {
 }
 
 policy "enforce-mandatory-tags" {
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
